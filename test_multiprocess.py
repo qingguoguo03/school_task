@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov  1 12:43:16 2017
-
-@author: Administrator
-"""
-
-
-from multiprocessing import Pool
-
-# -*- coding: utf-8 -*-
-"""
 Created on Tue Oct 31 12:16:39 2017
 
 @author: Administrator
