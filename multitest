@@ -1,0 +1,17 @@
+from sklearn import datasets
+import itertools as itls
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+iris = datasets.load_iris()
+X = iris.data
+Y = iris.target
+label_names = iris.target_names #array(['setosa', 'versicolor', 'virginica'])
+attributes = iris.feature_names
+
+combinations = list(itls.combinations([0,1,2,3],3)) # 每幅图挑出三个属性 组合
+fig = plt.figure()
+plt.title('鸢尾花数据可视化显示',{'fontname':'STFangsong','fontsize':10})
+for k in range(4):
+    ax = fig.add_subplot(int('22'+str(k+1)), projection='3d')
+    for
